@@ -12,7 +12,7 @@ try {
     include: [
       Category, 
       {
-        module: Tag,
+        model: Tag,
        through: ProductTag
       }
     ],
@@ -34,7 +34,7 @@ router.get('/:id', async (req, res) => {
       include: [
         Category, 
         {
-          module: Tag,
+          model: Tag,
          through: ProductTag
         }
       ],

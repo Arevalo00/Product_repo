@@ -27,7 +27,7 @@ router.get('/:id', async (req, res) => {
       include: [
         Product, 
         {
-          module: Category,
+          model: Category,
         
         }
       ],
