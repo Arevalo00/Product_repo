@@ -12,27 +12,23 @@ Product.init(
     id:{
       type: DataTypes.INTEGER,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
       
     },
     product_name: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     price:{
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
     },
     stock:{
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
     },
     category_id: {
       type: DataTypes.INTEGER,
       
-    },
-      
+    },   
   },
-
-  
-
   {
     sequelize,
     timestamps: false,
