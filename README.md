@@ -35,3 +35,9 @@ THEN I am able to successfully create, update, and delete data in my database
 ## links 
 
 https://github.com/Arevalo00/Product_repo.git
+
+
+https://github.com/Arevalo00/Product_repo/assets/132723412/ae4cbfd5-6f52-45e6-8fc7-2e10ae6acd9d
+
+
+
